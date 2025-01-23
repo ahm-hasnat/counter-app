@@ -61,6 +61,20 @@
     border-radius: 2rem;
     border: 1px solid black;
 }
+
+/* nike shoe */
+
+#nikeshoe{
+    width: 40vw;
+    height: 60vw;
+     margin:20vh auto;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     gap: 1rem;
+}
+
 @media screen and (max-width: 576px) {
     #cave{
         display: flex;
