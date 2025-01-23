@@ -8,7 +8,8 @@ function add() {
 }
 
 function save() {
-    let enteredPeople = count + " - "
+    let enteredPeople = count + " + "
     totlEntered.textContent += enteredPeople
-    console.log(enteredPeople)
+    passBy.innerText = 0
+    count = 0
 }

@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     width: 40vw;
-   min-height: 50vh;
+   min-height: 60vh;
     margin:20vh auto;
     display: flex;
     align-items: center;
@@ -42,6 +42,24 @@
     max-width: 80%;
     font-size: 1.5rem;
     margin-top: 10px;
+}
+.vatija{
+    text-align: center;
+    font-size: 1.8rem ;
+    font-weight: bold;
+    color: darkred;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+.vatija img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border: 1px solid black;
 }
 @media screen and (max-width: 576px) {
     #cave{
