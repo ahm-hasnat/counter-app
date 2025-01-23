@@ -1,0 +1,51 @@
+#cave{
+    background: linear-gradient(to bottom, rgba(236, 231, 231, 0.16),rgba(236, 231, 231, 0.16)), url("dark-cave-entrance-surrounded-by-rocky-walls_1096472-21087.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 40vw;
+   min-height: 50vh;
+    margin:20vh auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    border: 5px solid khaki;
+    border-radius: 20px;
+}
+#cave h1{
+    color: rgb(162, 255, 0);
+    font-size:2rem;
+    margin:0;
+    margin-top: 10px;
+}
+#cave h2{
+    color: skyblue;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+#cave button{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #000;
+    background-color: deeppink;
+    padding: 0.5rem 3rem;
+    border: 2px solid rgba(0, 0, 0, 0.76);
+    border-radius: 20px;
+   cursor: pointer;
+}
+#cave p{
+    color:rgb(255, 247, 0);
+    font-weight: 600;
+    max-width: 80%;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+@media screen and (max-width: 576px) {
+    #cave{
+        display: flex;
+        text-align: center;
+    }
+}
